@@ -1,0 +1,438 @@
+/*************************************NAVBAR*****************************************************/
+.nav{
+    height:100px;
+}
+
+.navbar .navbar-collapse {
+    text-align: center;
+    border:1px solid black;
+    font-family: Brunoace, sans-serif;
+    background: #F77902; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(left, #F77902 , #000000); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #F77902, #000000); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #F77902, #000000); /* For Firefox 3.6 to 15 */
+    background-image: linear-gradient(to right, black 50%, #f77902 50%); /* Standard syntax */
+}
+
+.navbar-brand{
+    width:100%;
+    height:45px;
+}
+
+a{
+    color:#2E80B6 !important; 
+}
+a:hover{
+    color: #E8B07A !important;
+}
+
+.navbar .navbar-nav {
+    display: inline-block;
+    float: none;
+    background-color:white;
+    height:52px;
+}
+.navbar .navbar-collapse ul li{
+    height: 57px;
+    background-color:white;
+    color:black;
+
+}
+.navbar .navbar-collapse ul li a{
+    color:black !important;
+}
+
+.navbar .navbar-collapse ul li a:hover{
+    color:#2E80B6 !important;
+}
+
+/*************************************NAVBAR*****************************************************/
+
+
+/*************************************CAROUSEL*****************************************************/
+.item{
+    display: inline;
+}
+.item img{
+    max-height: 400px;
+    min-height: 400px;
+    min-width: 100%;
+    object-fit: cover;
+}
+
+#carousel{
+    height:400px;
+    margin-top:192px;
+}
+
+/*************TRIANGLE*************/
+.triangle-down-left:after {
+    content: "";
+    display: block;
+    height: 0;
+    margin-left: -500px;
+    border-top: 390px solid transparent;
+    border-left: 1400px solid rgba(247, 121, 2, 0.3);
+    float:left;
+    margin:0.5%;
+    position:absolute;
+    z-index:2;
+}
+
+@media (max-width:1423px){
+    .triangle-down-left:after{
+        border-left: 1000px solid rgba(247, 121, 2, 0.3);
+    }
+}
+@media (max-width:1022px){
+    .triangle-down-left:after{
+        border-left: 600px solid rgba(247, 121, 2, 0.3);
+    }
+}
+
+@media (max-width:620px){
+    .triangle-down-left:after{
+        border-left: 200px solid rgba(247, 121, 2, 0.3);
+    }
+}
+/*************END of TRIANGLE*************/
+
+/*************************************END OF CAROUSEL*****************************************************/
+
+
+
+
+/*************************************LEFT SIDE*****************************************************/
+.btn{
+    width:100%;
+    margin-top:10px;
+}
+.dropdown-menu{
+    width:100%;
+}
+.firstLeft{
+    background-image:url('bootstrap-3.3.7-dist/fonts/img/photoPerson.jpg');
+    background-color:#cccccc;
+    background-size:cover;
+    background-repeat:no-repeat;
+    border:1px solid black;
+}
+
+.secondLeft{
+    background-color:#2E80B6;
+    text-align:center;
+}
+.thirdLeft{
+    background-color:#2E80B6;
+    height:340px;
+    margin-top:35px;
+    border:1px solid black;
+}
+/*************************************END OF LEFT SIDE*****************************************************/
+
+
+
+/*************************************MAIN*****************************************************/
+.cars{
+    height:120px;
+    width:16%;
+    border:1px solid black;
+    margin:10px 1px 1px 1px;
+    background-image: url("bootstrap-3.3.7-dist/fonts/img/classic1.jpg");
+    background-size:100%;
+    background-size: cover;
+    z-index: 1;
+}
+
+/**small image to large**/ 
+.img-zoom {
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+    -ms-transition: all .2s ease-in-out;
+
+}
+
+.transition {
+    -webkit-transform: scale(2); 
+    -moz-transform: scale(2);
+    -o-transform: scale(2);
+    transform: scale(2);
+    z-index: 888;
+    border:4px solid #F77902;
+    height:120px;
+    width:160px;
+
+}
+
+/**small image to large**/ 
+.carText1{
+    text-align:right;
+    background-color:rgba(255, 255, 255, 0.3);
+    right:0px !important; 
+}
+.carsText2 {
+    text-align:left;
+    background-color:rgba(51, 51, 51, 0.85);
+    color:#FF5722;
+}
+/**fade text**/
+/**http://stackoverflow.com/questions/5404775/jquery-show-hide-when-hover**/
+/**fade text**/
+
+
+/*************************************END OF MAIN*****************************************************/
+
+
+
+/*************************************RIGHT SIDE*****************************************************/
+
+.firstRight{
+    background-color:#F77902;
+    text-align:center;
+}
+.secondRight{
+    background-color:#F77902;
+    text-align:center;
+}
+.thirdRight{
+    background-color:#F77902;
+    height:340px;
+    margin-top:35px;
+    border:1px solid black;
+}
+/*************************************END of RIGHT SIDE*****************************************************/
+
+
+/*************************************BUY, SELL, FINANCE etc. icons AND BRANDS*****************************************************/
+.icon{
+    min-height:400px; text-align:center;
+}
+
+.icon .panel-body{
+    margin:10px;border:1px solid black;min-height:370px;
+}
+.icon-border{
+    border:1px solid #FF5722; 
+    border-radius:50px 50px 50px 50px; 
+    padding:10px; 
+    height:74px;
+    width:74px;
+    display: block; 
+    margin: 0 auto;
+}
+.icon-border:hover{
+    cursor:pointer;
+    opacity: 1;
+    -webkit-animation: flash 1.5s;
+    animation: flash 1.5s;
+}
+@-webkit-keyframes flash {
+    0% {
+        opacity: .4;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+@keyframes flash {
+    0% {
+        opacity: .4;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.icon-border img{
+    background-color:#192024; width:50px;display: block; margin: 0 auto;
+}
+
+
+
+
+.brand figure {
+    position: relative;
+}
+.brand figure::before {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 2;
+    display: block;
+    content: '';
+    width: 0;
+    height: 0;
+    background: rgba(255,255,255,.2);
+    border-radius: 100%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    opacity: 0;
+}
+.brand figure:hover::before {
+    cursor:pointer;
+    -webkit-animation: circle .75s;
+    animation: circle .75s;
+}
+@-webkit-keyframes circle {
+    0% {
+        opacity: 1;
+    }
+    40% {
+        opacity: 1;
+    }
+    100% {
+        width: 200%;
+        height: 200%;
+        opacity: 0;
+    }
+}
+@keyframes circle {
+    0% {
+        opacity: 1;
+    }
+    40% {
+        opacity: 1;
+    }
+    100% {
+        width: 200%;
+        height: 200%;
+        opacity: 0;
+    }
+}
+
+
+/*************************************END of BUY, SELL, FINANCE etc. icons AND BRANDS*****************************************************/
+
+
+.panel-default{
+    border-style:none;
+}
+
+.footer{
+    background: #F77902; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(left, #F77902 , #000000); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #F77902, #000000); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #F77902, #000000); /* For Firefox 3.6 to 15 */
+    background-image: linear-gradient(to right, #f77902 50%, black 50%); /* Standard syntax */
+    display: block;
+    margin-top: 20px;
+    padding-top: 35px;
+    padding-bottom: 0px;
+    border-top: 1px solid #2e9dff;
+}
+
+
+
+/*************************************CONTACT*****************************************************/
+
+.bg-map {
+    position: absolute;
+    top: 70px;
+    width:100%;
+    height:50%;
+}
+
+/*************************************end of CONTACT*****************************************************/
+
+.thumbnail {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+}
+.thumbnail img {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    height: 100%;
+    width: auto;
+    -webkit-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+}
+.thumbnail img.portrait {
+    width: 100%;
+    height: 120px;
+}
+
+
+@media (max-width: 1526px){
+    .cars{
+        height:120px;
+        width:19%;
+    }
+}
+
+@media (max-width: 1355px){
+    .cars{
+        height:120px;
+        width:24%;
+    }
+}
+
+
+@media (max-width: 853px) {
+    .cars{
+        height:140px;
+        width:28%;
+    }
+    .carMenu{
+        padding:auto;
+    }
+    .navbar-header {
+        float: none;
+    }
+    .navbar-left,.navbar-right {
+        float: none !important;
+    }
+    .navbar-toggle {
+        display: block;
+    }
+    .navbar-collapse {
+        border-top: 1px solid transparent;
+        box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+    }
+    .navbar-fixed-top {
+        top: 0;
+        border-width: 0 0 1px;
+    }
+    .navbar-collapse.collapse {
+        display: none!important;
+    }
+    .navbar-nav {
+        float: none!important;
+        margin-top: 7.5px;
+    }
+    .navbar-nav>li {
+        float: none;
+    }
+    .navbar-nav>li>a {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .collapse.in{
+        display:block !important;
+    }
+    .navbar .navbar-nav{
+        width:100% ;
+    }
+    .navbar .navbar-collapse ul li{
+        margin-top:1px;
+        background-color:#286090;
+    }
+}
+@media (max-width: 732px){
+    .cars{
+        height:120px;
+        width:49%;
+    }
+}
+@media (max-width: 510px){
+    .cars{
+        height:220px;
+        width:100%;
+        right:20px;
+    }
+}
+
