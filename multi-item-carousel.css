@@ -1,0 +1,364 @@
+
+
+.carousel-inner .active.left { left: -33%; }
+.carousel-inner .next        { left:  33%; }
+.carousel-inner .prev        { left: -33%; }
+.carousel-control.left,.carousel-control.right {background-image:none;}
+
+/*************************************NAVBAR*****************************************************/
+.nav{
+    height:100px;
+
+}
+
+
+
+.navbar .navbar-collapse {
+    text-align: center;
+    border:1px solid black;
+    background: #F77902; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(left, #F77902 , #000000); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #F77902, #000000); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #F77902, #000000); /* For Firefox 3.6 to 15 */
+    background-image: linear-gradient(to right, black 50%, #f77902 50%); /* Standard syntax */
+}
+
+.navbar-brand{
+    width:100%;
+    height:45px;
+}
+
+a{
+    color:#2E80B6 !important; 
+}
+a:hover{
+    color: #E8B07A !important;
+}
+
+.navbar .navbar-nav {
+    display: inline-block;
+    float: none;
+    background-color:white;
+    height:52px;
+}
+.navbar .navbar-collapse ul li{
+    height: 57px;
+    background-color:white;
+    color:black;
+
+}
+.navbar .navbar-collapse ul li:hover{
+    font-weight: bold;
+    font-weight: 900;
+}
+
+/*************************************NAVBAR*****************************************************/
+
+/*************************************LEFT SIDE*****************************************************/
+.btn{
+    width:100%;
+    margin-top:10px;
+}
+.dropdown-menu{
+    width:100%;
+}
+.firstLeft{
+    background-image:url('bootstrap-3.3.7-dist/fonts/img/photoPerson.jpg');
+    background-color:#cccccc;
+    background-size:cover;
+    background-repeat:no-repeat;
+    border:1px solid black;
+}
+
+.secondLeft{
+    background-color:#2E80B6;
+    text-align:center;
+}
+.thirdLeft{
+    background-color:#2E80B6;
+    height:340px;
+    margin-top:35px;
+    border:1px solid black;
+}
+/*************************************END OF LEFT SIDE*****************************************************/
+
+
+
+/*************************************MAIN*****************************************************/
+.cars{
+    height:120px;
+    width:19%;
+    border:1px solid black;
+    margin:10px 1px 1px 1px;
+    background-image: url("bootstrap-3.3.7-dist/fonts/img/classic1.jpg");
+    background-size:100%;
+    background-size: cover;
+    z-index: 1;
+}
+
+.ImageWithCarInfo{
+    padding:10px;
+    text-align:right;
+    position: absolute;
+    top: 1px;
+    left: -17px;
+    width: 100%;
+    height:100%;
+    background-color:rgba(242, 242, 242, 0.5);
+}
+
+@media(max-width:1677px){
+    .cars{
+        height:120px;
+        width:24%;
+    }
+}
+@media(max-width:1495px){
+    .cars{
+        height:140px;
+        width:33%;
+    }
+}
+@media(max-width:1362px){
+    .cars{
+        height:180px;
+        width:49%;
+    }
+
+}
+@media(max-width:1190px){
+    .cars{
+        height: 150px;
+        width:49%;
+    }
+
+}
+@media(max-width:991px){
+    .cars{
+        height: 130px;
+        width:19%;
+    }   
+}
+@media(max-width:856px){
+    .cars{
+        height: 130px;
+        width:24%;
+    }   
+    body{
+        text-align:center;
+    }
+}
+@media(max-width:640px){
+    .cars{
+        height: 150px;
+        width:48%;
+    }   
+}
+@media (max-width: 540px)   {
+    .cars{
+        height: 140px;
+        width:220px;
+    }   
+    .carPics{
+        text-align:center;  
+    }
+}
+@media (max-width: 767px)   {
+    .ImageWithCarInfo{
+        position: initial;
+        text-align:center;
+    }
+}
+
+
+
+
+
+
+/**image to large**/ 
+.img-zoom {
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+    -ms-transition: all .2s ease-in-out;
+
+}
+
+.transition {
+    -webkit-transform: scale(2); 
+    -moz-transform: scale(2);
+    -o-transform: scale(2);
+    transform: scale(2);
+    z-index: 888;
+    border:4px solid #F77902;
+    height:120px;
+    width:160px;
+
+}
+
+/**image to large**/ 
+.carText1{
+    text-align:right;
+    background-color:rgba(255, 255, 255, 0.3);
+    right:0px !important; 
+}
+.carsText2 {
+    text-align:left;
+    background-color:rgba(51, 51, 51, 0.85);
+    color:#FF5722;
+}
+/**fade text**/
+/**http://stackoverflow.com/questions/5404775/jquery-show-hide-when-hover**/
+
+
+/**fade text**/
+
+/*************************************END OF MAIN*****************************************************/
+
+
+
+/*************************************RIGHT SIDE*****************************************************/
+
+.firstRight{
+    background-color:#F77902;
+    text-align:center;
+}
+.secondRight{
+    background-color:#F77902;
+    text-align:center;
+}
+.thirdRight{
+    background-color:#F77902;
+    height:340px;
+    margin-top:35px;
+    border:1px solid black;
+}
+/*************************************RIGHT SIDE*****************************************************/
+
+.panel-default{
+    border-style:none;
+}
+
+.footer{
+    background: #F77902; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(left, #F77902 , #000000); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #F77902, #000000); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #F77902, #000000); /* For Firefox 3.6 to 15 */
+    background-image: linear-gradient(to right, #f77902 50%, black 50%); /* Standard syntax */
+    display: block;
+    margin-top: 20px;
+    padding-top: 35px;
+    padding-bottom: 0px;
+    border-top: 1px solid #2e9dff;
+}
+
+
+
+/*************************************CONTACT*****************************************************/
+
+.bg-map {
+    position: absolute;
+    top: 70px;
+    width:100%;
+    height:50%;
+}
+
+/*************************************end of CONTACT*****************************************************/
+
+.thumbnail {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+}
+.thumbnail img {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    height: 100%;
+    width: auto;
+    -webkit-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+}
+.thumbnail img.portrait {
+    width: 100%;
+    height: auto;
+}
+
+.extras{
+    margin-top:20px;
+}
+
+
+.glyphicon-ok{
+    margin-right:15px;
+
+}
+
+
+
+
+.img-wrapper {
+  position: relative;
+ }
+
+.img-overlay {
+  position: absolute;
+  top: 0;;
+  left: 0;
+  text-align: center;
+}
+
+.img-overlay:before {
+  content: ' ';
+  display: block;
+  /* adjust 'height' to position overlay content vertically */
+  height: 50%;
+}
+
+
+
+
+@media (max-width: 853px) {
+    .navbar-header {
+        float: none;
+    }
+    .navbar-left,.navbar-right {
+        float: none !important;
+    }
+    .navbar-toggle {
+        display: block;
+    }
+    .navbar-collapse {
+        border-top: 1px solid transparent;
+        box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+    }
+    .navbar-fixed-top {
+        top: 0;
+        border-width: 0 0 1px;
+    }
+    .navbar-collapse.collapse {
+        display: none!important;
+    }
+    .navbar-nav {
+        float: none!important;
+        margin-top: 7.5px;
+    }
+    .navbar-nav>li {
+        float: none;
+    }
+    .navbar-nav>li>a {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .collapse.in{
+        display:block !important;
+    }
+    .navbar .navbar-nav{
+        width:100% ;
+    }
+    .navbar .navbar-collapse ul li{
+        margin-top:1px;
+    }
+}
